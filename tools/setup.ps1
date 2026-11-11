@@ -181,7 +181,7 @@ if ((Test-Path 'src\recomp\gen\recomp_dispatch.c') -and -not $Force) { Say "  Al
 else { Run "Lifting" ($pyargs + @('run_lift.py')) }
 
 # ---------------------------------------------------------------- build
-Step 5 "Building build\sambarrecomp.exe (20 to 40 minutes)"
+Step 5 "Building build\sambarrecomp.exe (about 3 minutes)"
 if ((Test-Path 'build\sambarrecomp.exe') -and -not $Force) { Say "  Already built (skipping)." }
 else {
   $env:CMAKE_ARGS = "-DPCRECOMP=$($Toolkit.Replace([char]92, '/'))"
