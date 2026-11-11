@@ -113,7 +113,7 @@ some-folder\
    ```
    powershell -c "(gc game\config\config.bkp) -replace '^Force IP Bind =.*','Force IP Bind = 127.0.0.1' | sc game\config\config.ini"
    ```
-4. Rebase the six modules and catalog their functions (about 15 minutes,
+4. Rebase the six modules and catalog their functions (about 10 minutes,
    most of it `sambar.dll`):
    ```
    py -3 tools\catalog.py
@@ -126,7 +126,7 @@ some-folder\
    ```
    Expected, at the end:
    `17384 entries in the dispatch table, lift errors 0, unimplemented instructions 1`.
-6. Build (20 to 40 minutes on 8 cores; netlab does it too, below):
+6. Build (about 3 minutes; netlab does it too, below):
    ```
    build.cmd
    ```

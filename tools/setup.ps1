@@ -171,7 +171,7 @@ if ((Test-Path 'game\bin\ntserver.exe') -and -not $Force) {
 }
 
 # ---------------------------------------------------------------- catalog
-Step 3 "Rebasing the modules and finding every function (about 15 minutes)"
+Step 3 "Rebasing the modules and finding every function (about 10 minutes)"
 if ((Test-Path 'work\samples.dll.functions.json') -and -not $Force) { Say "  Already done (skipping)." }
 else { Run "Cataloging" ($pyargs + @('tools\catalog.py')) }
 

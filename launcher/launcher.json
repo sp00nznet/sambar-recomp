@@ -3,7 +3,7 @@
   "repo": "sp00nznet/sambar-recomp",
   "accent": "#990033",
   "note": {
-    "windows": "The build takes 20 to 40 minutes and about 1.5 GB. Python and the Visual Studio Build Tools are installed if they are missing; the Build Tools are about 3 GB and add 15 to 30 minutes, and Windows asks for permission once. Point it at sambar64p.exe (the 6.4 installer; it is unpacked, never run) or an installed Sambar 6.4 folder. A 2006 server with known vulnerabilities: it is set up bound to 127.0.0.1 only. Read SECURITY.md."
+    "windows": "The whole setup takes about 15 minutes and 1.5 GB. Python and the Visual Studio Build Tools are installed if they are missing; the Build Tools are about 3 GB and add 15 to 30 minutes, and Windows asks for permission once. Point it at sambar64p.exe (the 6.4 installer; it is unpacked, never run) or an installed Sambar 6.4 folder. A 2006 server with known vulnerabilities: it is set up bound to 127.0.0.1 only. Read SECURITY.md."
   },
   "game": {
     "name": "Sambar Server 6.4",
