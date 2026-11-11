@@ -1,0 +1,10 @@
+Sambar Server recomp
+
+The host is derived from the AmazingMIDI recomp's host, the lift driver from
+the Unreal Tournament recomp's, and both run on pcrecomp's native32 runtime
+(https://github.com/sp00nznet/pcrecomp). All MIT.
+
+Sambar Server is (c) 1996-2006 Sambar Technologies, freeware under its own
+license (license.txt in its installer), which forbids redistributing it. No
+part of it is included: no executable, DLL, MAP file, page, configuration or
+generated source.

@@ -1,0 +1,70 @@
+# Build output
+build/
+build-farm/
+out/
+cmake-build-*/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# Python
+__pycache__/
+*.pyc
+
+# --- Retail game files: NOT redistributed (REPO_RULES section 3) ---
+# Sambar Server (c) Sambar Technologies.
+# Bring your own copy; it goes in game/.
+game/
+redump/
+original/
+*.exe
+*.EXE
+*.7z
+*.dll
+*.DLL
+*.cab
+*.CAB
+*.hdr
+*.HDR
+*.iso
+*.bin
+*.hlp
+*.cnt
+*.cue
+*.zip
+*.rar
+
+# Generated from the binary, never committed: the lifted C, the catalog and
+# every other analysis of the Sambar binaries.
+src/recomp/gen/
+work/
+analysis/
+scratch/
+
+# Recordings and logs of runs
+*.mp4
+*.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+
+setup.log
+build-*/
+
+# Run logs
+o*.txt
+e*.txt
+
+# The shortcut Setup.cmd makes
+*.lnk
+*.map
+*.MAP
