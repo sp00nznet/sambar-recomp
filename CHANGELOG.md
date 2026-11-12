@@ -6,6 +6,16 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md`, `docs/testing.md`,
+  a `setup.sh` that says there is no Linux or macOS build yet, and a
+  hand-run installer workflow.
+
+### Changed
+- Setup and `launcher/launcher.json` clone pcrecomp's `pcrecomp-sambar`
+  branch, which the build needs, instead of `main`.
+- The README follows the house layout; `NOTICE` is now `NOTICE.md`.
+
 ## [0.1.0] - 2026-11-11
 
 ### Added
