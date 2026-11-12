@@ -9,7 +9,7 @@
     "name": "Sambar Server 6.4",
     "files": ["sambar64p.exe|bin/ntserver.exe|sambar/bin/ntserver.exe"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-sambar", "dir": "pcrecomp" }],
   "setup": {
     "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },
