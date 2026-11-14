@@ -6,6 +6,8 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+- Builds against pcrecomp main; the `pcrecomp-sambar` branch is merged.
+
 ### Added
 - `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `docs/building.md`, `docs/testing.md`,
   a `setup.sh` that says there is no Linux or macOS build yet, and a

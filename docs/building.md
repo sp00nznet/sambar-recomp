@@ -86,7 +86,7 @@ Steps 4 to 6 above. `PCRECOMP` (Python) and `-DPCRECOMP=` (CMake, through
 `set CMAKE_ARGS=...` for `build.cmd`) point at a toolkit checkout other than
 `..\pcrecomp`; the lifter and the runtime must come from the same tree.
 
-This needs pcrecomp's `pcrecomp-sambar` branch until it is merged:
+This needs pcrecomp main:
 `tools/pe/rebase.py`, `tools/lift/drive32.py` (alias stubs: without them one
 20 KB function in `sambar.dll` lifts to an 84 MB file MSVC cannot finish),
 `runtime/native32/modules32.c` (the module loader) and

@@ -9,7 +9,7 @@ ws2_32, kernel32 and advapi32. It runs Sambar's own code; it is not a rewrite,
 and no emulator or wrapper DLL is involved.
 
 Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain, on
-its **`pcrecomp-sambar`** branch until that is merged, and following its
+its `main` branch, and following its
 shared house style, like the other
 [pcrecomp projects](https://github.com/sp00nznet/pcrecomp#the-projects-that-built-this).
 
@@ -40,8 +40,8 @@ and the generated C is made on your machine, into gitignored folders.
 4. Run `Sambar Server (recomp)` in that folder, then open `http://127.0.0.1/`.
 
 The script asks before installing anything (Python 3.10+, `pefile` and
-`capstone`, git, the Visual Studio 2022 C++ Build Tools), clones pcrecomp's
-`pcrecomp-sambar` branch beside the repo if it isn't there, unpacks the
+`capstone`, git, the Visual Studio 2022 C++ Build Tools), clones pcrecomp
+beside the repo if it isn't there, unpacks the
 installer into `game\` (reading it, never running it), writes a config bound
 to `127.0.0.1`, catalogs, lifts and builds. About 15 minutes; a rerun skips
 finished steps, and `setup.log` has the details if it stops. `-GameDir
