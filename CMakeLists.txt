@@ -22,6 +22,7 @@ set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 
 set(PCRECOMP "${CMAKE_SOURCE_DIR}/../pcrecomp" CACHE PATH "pcrecomp checkout")
 file(GLOB_RECURSE GEN_SOURCES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/src/recomp/gen/*.c")
+list(FILTER GEN_SOURCES EXCLUDE REGEX "/recomp_part\.c$")   # newer drive32 writes a per-module part table
 if(NOT GEN_SOURCES)
   message(FATAL_ERROR "src/recomp/gen is empty -- run `py -3 run_lift.py` first")
 endif()
